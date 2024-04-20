@@ -23,5 +23,11 @@
     "tailwindcss": "3.3.2",
     "twitter-autohook": "^1.7.2",
     "typescript": "5.1.6"
-  }
+  },
+  "description": "This is a Taiwan Space repo",
+  "main": "next.config.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

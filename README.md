@@ -1,12 +1,21 @@
 This is a Taiwan Space repo
 
-
+0. Integrat with Prisma + Postgre
 1. Get boba tea restaurant
 2. Get twitter topic
 3. Get facebook post
 
 ## Getting Starter
 
+For Mac, use Postgres.app + Postico2 ( optional )
+
+To install Prisma
+```
+npm init -y
+npm install prisma typescript ts-node @types/node --save-dev
+```
+
+MAPBOX 
 Create `.env.local` file to set API keys
 ```.env.local
 NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=
@@ -20,6 +29,8 @@ TWITTER_ACCESS_TOKEN=Details ➡️ Access token
 TWITTER_ACCESS_TOKEN_SECRET=Details ➡️ Access token secret 
 TWITTER_WEBHOOK_ENV=Your env label
 ```
+
+### Development
 
 ## Deploy on Vercel
 
